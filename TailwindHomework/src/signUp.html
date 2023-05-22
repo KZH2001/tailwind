@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <title>Spotify</title>
+</head>
+
+<body class="bg-[#484848] md:bg-[#1db8a5]">
+    <div class="nav flex justify-between md:flex-row-reverse  text-white mt-4">
+
+        <div class="md:hidden ml-5 text-green-500 font-semibold"> 
+            <a href="./index.html">🡨 Login</a>
+        </div>
+        <div class="hidden md:block md:mr-7">Home</div>
+
+
+        <div class="flex justify-center items-center">
+            <img class="mr-5 w-10 ml-4 md:hidden " src="./images/pngegg(3).png" alt="">
+            <img class="  w-10 ml-4 hidden md:block" src="./images/logoBlack.png" alt="">
+            <span class=" hidden md:block md:ml-2 md:font-bold md:text-black md:text-2xl">Spotify</span>
+        </div>
+    </div>
+    <!-- Mobile start -->
+    <div class="md:hidden">
+       
+        <span class="text-white text-4xl font-semibold flex tracking-normal justify-center mt-3 ">Sign up for Spotify</span>
+        <span class="text-[#ffffff91] flex justify-center mt-6  text-sm">Please check your inbox for vertification
+            code</span>
+        <div class="flex justify-center items-center  mt-5 md:hidden">
+            <form class=" rounded-lg">
+
+                <label for="email" class="text-[#ffffff91]">Email:</label>
+                <input type="email" id="email" class="mb-5 mt-2  block rounded-md w-[320px] h-10 px-3"
+                    placeholder="  Enter your email">
+
+                <label for="name" class="text-[#ffffff91] ">Username:</label>
+                <input type="text" id="name" class="mt-2 mb-5 block rounded-md w-[320px] h-10 px-3"
+                    placeholder="  Enter your username">
+
+                    <label for="pass1" class="text-[#ffffff91]">Password:</label>
+                    <input type="password" id="pass1" class="mb-5 mt-2  block rounded-md w-[320px] h-10 px-3"
+                        placeholder="  Enter your password">
+    
+                    <label for="pass2" class="text-[#ffffff91] ">Confirm Password:</label>
+                    <input type="password" id="pass2" class="mt-2 mb-5 block rounded-md w-[320px] h-10 px-3"
+                        placeholder="  Re-ener your password">
+                    
+                        <span class="text-white">
+                            <input type="checkbox" name="" id="">
+                            I have read and agreed to the terms & policy</span>
+                <button class="block mt-5 mx-auto font-extrabold py-2.5 px-7  rounded-3xl bg-[#1db8a5]">
+                    <a href="./home.html">Sign In</a>
+                </button>
+                
+              <div class="flex justify-center">
+                <img src="./images/register.svg" class="mt-5 " alt="">
+              </div>
+
+            </form>
+
+        </div>
+
+    </div>
+    <!-- end mobile -->
+
+    <!-- start desktop -->
+    <div class="md:flex md:justify-around ml-20 md:flex-row-reverse md:items-center md:mt-[30px] hidden ">
+        <div class="md:w-[400px] md:h-[570px] md:bg-white rounded-xl  relative">
+            <span class="flex justify-center font-semibold mt-7 text-2xl">Sign up for Spotify</span>
+          
+
+            <div class="flex justify-center items-center  mt-5">
+                <form class=" rounded-lg">
+                    <label for="email" class="text-[#000000] font-semibold">Email :</label>
+                    <input type="email" id="email" class=" px-3 bg-[#d9d9d9] mb-5 mt-2  block rounded-md w-[320px] h-10"
+                       >
+
+                    <label for="name" class="text-[#000000] font-semibold">Username :</label>
+                    <input type="text" id="name" class=" px-3 bg-[#d9d9d9] mt-2 mb-5 block rounded-md w-[320px] h-10"
+                     >
+
+                        <label for="pass1" class="text-[#000000] font-semibold">Password :</label>
+                        <input type="password" id="pass1" class=" px-3 bg-[#d9d9d9] mb-5 mt-2  block rounded-md w-[320px] h-10"
+                            >
+                    
+                        <label for="pass2" class="text-[#000000] font-semibold">Confirm your password :</label>
+                        <input type="password" id="pass2" class=" px-3 bg-[#d9d9d9] mt-2 mb-5 block rounded-md w-[320px] h-10"
+                            >
+    
+                       <span class="text-black text-sm font-semibold">
+                    <input type="checkbox" name="" id="">
+                    I have read and agreed to the terms & policy</span>
+                    <button class=" mb-3 block mt-4 mx-auto font-bold py-2.5 px-7 text-white rounded-2xl bg-[#1db8a5]">
+                        <a href="./home.html">Sign up</a>
+                    </button>
+                    <span class="absolute mt-[31px] font-bold">Already have an account? Login <a href="./index.html">
+                        <span class="text-blue-700 cursor-pointer underline ">Here</span> 
+                      </a> </span>
+                </form>
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+        <div class="flex-col  md:w-[500px] md:h-[500px]   flex items-center ml-[10px] relative ">
+            <img class="h-[800px]"  src="../src/images/undraw_sign_up_n6im.svg" alt="">
+            <span class="absolute -bottom-[90px] left-12 text-white font-semibold">@Spotify2023</span>
+           
+        </div>
+        
+
+    </div>
+    <!-- end desktop -->
+
+</body>
+
+
+</html>

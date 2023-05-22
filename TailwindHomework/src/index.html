@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <title>Spotify</title>
+</head>
+<body class="bg-[#484848] lg:bg-[#1db8a5]">
+  <div class="nav flex justify-around text-white mt-4 md:justify-between md:flex-row-reverse">
+      <div class="md:mr-4">
+        <a href="./home.html">Home</a>
+      </div>
+      <div class="md:hidden">
+        <a href="./signUp.html">
+          Create Account
+        </a>
+      </div>
+      <div class="flex justify-center items-center">
+          <img class="w-10 ml-4 md:hidden " src="./images/pngegg(3).png" alt="">
+          <img class="w-10 ml-4 hidden md:block" src="./images/logoBlack.png" alt="">
+          <span class="hidden md:block md:ml-2 md:font-bold md:text-black md:text-2xl">Spotify</span>
+      </div>
+  </div>
+
+  <!-- Start Mobile -->
+  <span class=" font-sans font-semibold text-white text-4xl flex justify-center mt-12 tracking-wide md:hidden">Welcome to Spotify</span>
+
+  <div class="flex justify-center items-center  mt-5 md:hidden">
+    <form class=" rounded-lg">
+      <label for="email" class="text-white">Email:</label>
+        <input   type="email" id="email" class="mb-7 mt-2  block rounded-md w-[320px] h-10" placeholder="  Enter your email">
+
+        <label  for="pass" class="text-white ">Password:</label>
+        <input   type="password" id="pass" class="mt-2 block rounded-md w-[320px] h-10" placeholder="  Enter your password">
+
+        <span class="text-blue-600 underline flex justify-end mt-2  ">
+          <a href="./forgot.html">Forgot password</a>
+        </span>
+        <button class="block mx-auto font-extrabold py-2.5 px-7 mt-2 rounded-3xl bg-[#1db8a5]">
+          <a href="./home.html">Login</a>
+        </button>
+
+    </form>
+
+
+  </div>
+  <div class=" mt-4 md:hidden ">
+    <span class=" flex flex-col text-center text-white font-semibold text-xl tracking-wider">You can also login with :</span>
+
+  </div>
+<div class="flex justify-evenly mt-7 md:hidden">
+<div class="">
+ <a href="./home.html">
+  <img class=" w-8 " src="./images/logo-google.png" alt="">
+ </a>
+</div>
+<div class="">
+<a href="./home.html">
+  <img class=" w-8 " src="./images/facebook.png" alt="">
+
+</a>
+</div>
+<div class="py-[4px] px-[5px] bg-white">
+  <a href="./home.html  ">
+    <img class=" w-8 " src="./images/apple.png" alt="">
+
+  </a>
+</div>
+</div>
+<img class="md:hidden w-[300px] mx-auto mt-12" src="./images/undraw_mobile_login_re_9ntv.svg" alt="">
+<!-- End mobile -->
+
+<!-- start desktop -->
+<div class="md:flex md:justify-around ml-20 md:items-center md:mt-[40px] hidden ">
+  <div class="md:w-[400px] md:h-[410px] md:bg-white rounded-xl md:mr-[10px] relative">
+    <span class="flex justify-center font-bold mt-7 text-2xl">Login To Spotify</span>
+   <div class="flex justify-center mt-8">
+    <input placeholder="  Enter your username" type="email" class="bg-[#d9d9d9] h-8 rounded-md w-[330px] px-3 "  >
+  </div>
+
+  <div class="flex justify-center mt-8">
+    <input placeholder="  Enter your password" type="password" class="bg-[#d9d9d9] h-8 rounded-md w-[330px] px-3 "  >
+  </div>
+
+  <div class="flex justify-end mr-9 mt-5">
+    <span class="text-sm flex justify-center font-semibold drop-shadow-lg ">Forgot your password?</span>
+    <a class=" -mt-[2px] " href="./forgot.html">
+      <span class="text-blue-500 underline text-sm drop-shadow-lg ml-1 ">Click here</span>
+
+    </a>
+  </div>
+
+  <button class="flex justify-center py-2 px-9 text-white mx-auto mt-6 font-semibold rounded-xl bg-[#1db8a5]">
+    <a href="./home.html">Login</a>
+  </button>
+
+<div class="relative">
+  <hr class="w-full h-[1.2px] my-8 bg-[#00000083] border-0 rounded">
+  <span class="absolute -bottom-[18px] px-3 py-2 bg-white font-semibold text-xl ml-[177px]">Or</span>
+</div>
+
+<div class="flex justify-evenly mt-7">
+  <div class="">
+    <a href="./home.html">
+      <img class=" w-9 cursor-pointer" src="./images/logo-google.png" alt="">
+    </a>
+  </div>
+
+  <div class="">
+<a href="./home.html">
+  <img class=" w-9 " src="./images/facebook.png" alt="">
+
+</a>
+  </div>
+  <div class="">
+    <a href="./home.html">
+      <img class=" w-9 " src="./images/apple.png" alt="">
+
+    </a>
+  </div>
+  </div>
+  <span class="absolute mt-[30px] font-semibold">Don't have account yet? Sign up <a href="./signUp.html">
+    <span class="text-blue-700 cursor-pointer underline">Here</span> 
+  </a> </span>
+  <span class="absolute mt-[60px] font-semibold text-white">@Spotify2023</span>
+
+   </div>
+   
+  <div class="md:w-[500px] md:h-[500px] md:mr-[100px] flex items-center ml-[10px] ">
+    <img  src="../src/images/undraw_login_re_4vu2.svg" alt="">
+  </div>
+
+</div>
+<!-- end desktop -->
+</body>
+</html>

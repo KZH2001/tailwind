@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    
+    <title>Spotify</title>
+</head>
+
+<body class="bg-[#484848]">
+
+    
+    <nav class=" mt-3  md:flex   md:justify-between ">
+        <div class="flex  flex-row-reverse justify-between w-auto ">
+          <div>
+            <img class=" w-10 mr-4 md:ml-4   " src="./images/pngegg(3).png" alt="">
+          </div>
+
+          <span class="text-4xl text-white cursor-pointer mx-2 md:hidden block">
+            <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+          </span>
+        </div>
+
+        <ul class=  " w-auto bg-[#484848]   h-[300px] md:h-[41px]  md:flex md:items-center text-white z-[1] md:z-auto md:static absolute  left-0 md:w-auto   md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] md:top-0 transition-all ease-in duration-500">
+
+          <li class="mx-4 mt-4 md:my-0">
+            <a href="./home.html" class=" hover:text-cyan-500 duration-500 ">Home</a>
+            <hr class="w-[260px] md:hidden h-1 mx-left mt-3 bg-white border-0 rounded  ">
+          </li>
+          <li class="mx-4 mt-4 md:my-0">
+            <a href="#" class=" hover:text-cyan-500 duration-500">About Us</a>
+            <hr class="w-[260px] md:hidden  h-1 mx-left mt-3 bg-white border-0 rounded ">
+          </li>
+          <li class="mx-4 mt-4 md:my-0">
+            <a href="#" class=" hover:text-cyan-500 duration-500">Go Premium</a>
+            <hr class="w-[260px] md:hidden  h-1 mx-left mt-3 bg-white border-0 rounded ">
+          </li>
+  
+          <li class="mx-4 mt-4 md:my-0">
+            <a href="./index.html" class=" hover:text-cyan-500 duration-500 md:py-2 md:px-3 md:bg-[#1DB8A5] rounded-xl md:text-black font-semibold">Login</a>
+
+          </li>
+
+    
+        </ul>
+      </nav>
+
+<div class="flex justify-center">
+  <img class=" md:hidden w-[400px] mt-7" src="./images/home-image.svg" alt="">
+</div>
+
+<div class="hidden md:flex md:justify-around mt-[100px] mb-4">
+  <img src="./images/home-1.svg" alt="">
+  <img src="./images/home-2.svg" alt="">
+</div>
+<div class="flex justify-center"> 
+  <span class="text-2xl text-white mt-4 font-semibold md:hidden">Your Favourite Music Platform</span>
+</div>
+
+<div class="hidden md:block">
+  <span class="text-4xl flex justify-center font-semibold mb-4 text-[#1db8a5]">Your No.1 Musci Platform</span>
+</div>
+
+    <div class="flex justify-evenly md:justify-between mt-3 flex-wrap">
+      <div class=" flex flex-col items-center w-[160px] md:w-[220px] md:h-[200px] md:ml-14 h-[175px]  bg-[#1DB8A5] rounded-lg mb-3" >
+        <img class="h-[100px]" src="./images/undraw_contemplating_re_ynec.svg" alt="">
+        <span class="text-center mt-5 font-bold text-sm">Listen to your favourite music</span>
+      </div>
+
+      <div class=" flex flex-col items-center  md:w-[220px] md:h-[200px] w-[160px] h-[175px] bg-[#1DB8A5] rounded-lg mb-3" >
+        <img class="h-[100px]" src="./images/m2.svg" alt="">
+        <span class="text-center mt-5 font-bold text-sm">Search for your favourite artist</span>
+      </div>
+      <div class=" flex flex-col items-center  md:w-[220px] md:h-[200px] md:mr-14 w-[160px] h-[175px] bg-[#1DB8A5] rounded-lg mb-3" >
+        <img class="h-[100px]" src="./images/m3.svg" alt="">
+        <span class="text-center mt-5 font-bold text-sm">Discover more music</span>
+      </div>
+   
+  <div class="flex justify-between w-full">
+    <span class="text-white text-sm font-semibold ml-3">Contact us at spotify@gmail.com</span>
+    <span class="text-green-500 mr-3">@Spotify2023</span>
+  </div>
+    </div>
+
+
+</body>
+<script src="https://cdn.tailwindcss.com"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="./script.js"></script>
+
+
+</html>

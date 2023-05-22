@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <title>Spotify</title>
+</head>
+
+<body class="bg-[#484848] md:bg-[#1db8a5]">
+    <div class="nav flex justify-between md:flex-row-reverse  text-white mt-4">
+
+        <div class="md:hidden ml-5 text-green-500 font-semibold"> 
+            <a href="./index.html">🡨 Login</a>
+        </div>
+        <div class="hidden md:block md:mr-7">
+            <a href="./home.html">Home</a>
+        </div>
+
+
+        <div class="flex justify-center items-center">
+            <img class="mr-5 w-10 ml-4 md:hidden " src="./images/pngegg(3).png" alt="">
+            <img class="  w-10 ml-4 hidden md:block" src="./images/logoBlack.png" alt="">
+            <span class=" hidden md:block md:ml-2 md:font-bold md:text-black md:text-2xl">Spotify</span>
+        </div>
+    </div>
+    <!-- Mobile start -->
+    <div class="md:hidden">
+        <div class="flex justify-center">
+            <img class="w-[200px] mt-2" src="./images/undraw_my_password_re_ydq7.svg" alt="">
+        </div>
+        <span class="text-white text-3xl font-semibold flex tracking-wider justify-center mt-3 ">Reset your
+            password</span>
+        <span class="text-[#ffffff91] flex justify-center mt-6  text-sm">Please check your inbox for vertification
+            code</span>
+        <div class="flex justify-center items-center  mt-5 md:hidden">
+            <form class=" rounded-lg">
+                <label for="email" class="text-[#ffffff91]">Email:</label>
+                <input type="email" id="email" class="mb-7 mt-2  block rounded-md w-[320px] h-10 px-3"
+                    placeholder="  Enter your email">
+
+                <label for="code" class="text-[#ffffff91] ">Vertification Code:</label>
+                <input type="number" id="code" class="mt-2 block rounded-md w-[320px] h-10 px-3"
+                    placeholder="  Enter the vertification code">
+
+                <button class="block mt-10 mx-auto font-extrabold py-2.5 px-7  rounded-3xl bg-[#1db8a5]">Reset
+                    Password</button>
+
+            </form>
+
+
+        </div>
+    </div>
+    <!-- end mobile -->
+
+    <!-- start desktop -->
+    <div class="md:flex md:justify-around ml-20 md:flex-row-reverse md:items-center md:mt-[40px] hidden ">
+        <div class="md:w-[400px] md:h-[440px] md:bg-white rounded-xl  relative">
+            <span class="flex justify-center font-bold mt-7 text-2xl">Reset Password</span>
+            <span class="text-[#0000009f] flex justify-center mt-3">Vertification code will be sent to your
+                inbox.</span>
+
+            <div class="flex justify-center items-center  mt-5">
+                <form class=" rounded-lg">
+                    <label for="email" class="text-[#000000] font-semibold">Email:</label>
+                    <input type="email" id="email" class=" px-3 bg-[#d9d9d9] mb-7 mt-2  block rounded-md w-[320px] h-10"
+                        placeholder="  Enter your email">
+
+                    <label for="code" class="text-[#000000] font-semibold">Vertification Code:</label>
+                    <input type="number" id="code" class=" px-3 bg-[#d9d9d9] mt-2 block rounded-md w-[320px] h-10"
+                        placeholder="  Enter the vertification code">
+
+                    <button class=" mb-6 block mt-10 mx-auto font-bold py-2.5 px-7 text-white rounded-2xl bg-[#1db8a5]">Reset
+                        Password</button>
+
+                </form>
+
+            </div>
+<a href="./index.html">
+    <span class="ml-12 font-semibold font-sansation">Back to login</span>
+
+</a>
+
+
+
+
+
+        </div>
+
+        <div class="flex-col  md:w-[400px] md:h-[500px]  flex items-center ml-[10px] relative ">
+            <img  src="../src/images/reset.svg" alt="">
+            <span class="absolute bottom-[30px] left-12 text-white font-semibold">@Spotify2023</span>
+           
+        </div>
+        
+
+    </div>
+    <!-- end desktop -->
+
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</html>
